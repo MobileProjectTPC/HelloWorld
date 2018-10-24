@@ -8,5 +8,8 @@ android:
     - build-tools-27.0.0
     - android-27
 
+script:
+- chmod +x ./gradlew
+
 before_install:
 - chmod +x gradlew
